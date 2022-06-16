@@ -99,7 +99,7 @@ ManageAccountDialog.displayPasswordLogin = function (onSuccess) {
 
   // We don't support logging in with owner-only consumer if the target Wikibase doesn't support OAuth.
   if (!WikibaseManager.getSelectedWikibaseOAuth()) {
-    elmts.dialogFooter.hide();
+    //elmts.dialogFooter.hide();
   }
 
   var level = DialogSystem.showDialog(frame);
