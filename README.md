@@ -6,8 +6,7 @@ This is a fork of https://github.com/OpenRefine/OpenRefine.
 
 Build image (on Apple Silicon)(dev)
 ```
-docker buildx build --platform linux/amd64 . -t 294118183257.dkr.ecr.eu-west-1.amazonaws.com/linkedopendata-openrefine -f wikibase-bundle.Dockerfile
-550062732140.dkr.ecr.eu-central-1.amazonaws.com/linkedopendata-wikibase-bundle:latest
+docker buildx build --platform linux/amd64 . -t 294118183257.dkr.ecr.eu-west-1.amazonaws.com/linkedopendata-openrefine 
 ```
 
 Login on ECR repository(dev)
